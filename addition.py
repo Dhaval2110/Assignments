@@ -7,3 +7,6 @@ def add_nums(num1, num2):
        num2 = data << 1
    return num1
 print(add_nums(2, 10))
+
+import datetime
+print(datetime.datetime.now())
