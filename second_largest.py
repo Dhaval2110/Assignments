@@ -17,14 +17,3 @@ for i in range(2,len(l)):
 print(s)
 
 
-# small Re example 
-# import re
-# s = "This log is at 25-09-2021 10:11AM"
-
-# m = re.search(r'\d.*\s\d.*',s)
-# print(m.group(0))
-
-# import re 
-# s = "AT^m89*365423"
-# m = re.findall(r'[^a-z*][0-9]+',s)             # only no match
-# print(m)

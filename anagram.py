@@ -18,7 +18,7 @@ def anagram_logic2(s1,s2):
     if sorted(s1) == sorted(s2):
         print("Strings are anagram")
     else:
-        print("Strings are not anagram")
+        print("Strings are not anagram") 
 
 anagram_logic1(s1,s2)
 anagram_logic2(s1,s2)
